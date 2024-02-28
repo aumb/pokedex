@@ -6,7 +6,7 @@ import (
 	"net/http"
 )
 
-// ListLocations -
+// LocationDetails -
 func (c *Client) LocationDetails(area string) (RespDeepLocations, error) {
 	url := baseURL + "/location-area/" + area
 
